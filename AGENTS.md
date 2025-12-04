@@ -93,6 +93,13 @@ All remediation suggestions should be saved to a file in the following format:
 ## Problem Statement
 [Description of the issue]
 
+## Remediation Suggestions
+**Confidence Level**: [High/Medium/Low] ([percentage]%)
+
+### Immediate Actions
+1. [Action 1 with command example if applicable]
+2. [Action 2 with command example if applicable]
+
 ## Investigation Steps
 1. [Step 1 - Tool used and what was checked]
 2. [Step 2 - Tool used and what was checked]
@@ -103,21 +110,15 @@ All remediation suggestions should be saved to a file in the following format:
 - [Key finding 2]
 ...
 
-## Root Cause Analysis
+## Additional Analysis
+### Root Cause Analysis
 [Explanation of what caused the issue]
-
-## Remediation Suggestions
-**Confidence Level**: [High/Medium/Low] ([percentage]%)
-
-### Immediate Actions
-1. [Action 1 with command example if applicable]
-2. [Action 2 with command example if applicable]
 
 ### Long-term Improvements
 1. [Suggestion 1]
 2. [Suggestion 2]
 
-## Follow-up Monitoring
+### Follow-up Monitoring
 - [What to monitor after remediation]
 - [How to verify the fix worked]
 ```
