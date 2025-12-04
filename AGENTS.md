@@ -64,10 +64,9 @@ Every remediation suggestion **must** include a confidence level:
 For every troubleshooting session, document:
 
 1. **Initial Problem Statement**: What issue was reported or detected?
-2. **Investigation Steps**: List each action taken in order
-   - Which resources were examined
-   - What tools/commands were used
-   - What was found at each step
+2. **Investigation Steps**: List what was found at each step
+   - Focus on findings, not the tools/commands used
+   - Example: "Pod 'server' has status `ImagePullBackOff`" not "Listed pods in default namespace"
 3. **Evidence Collected**: Summarize key findings
    - Error messages
    - Resource states
@@ -101,8 +100,8 @@ All remediation suggestions should be saved to a file in the following format:
 2. [Action 2 with command example if applicable]
 
 ## Investigation Steps
-1. [Step 1 - Tool used and what was checked]
-2. [Step 2 - Tool used and what was checked]
+1. [What was found at step 1]
+2. [What was found at step 2]
 ...
 
 ## Evidence
